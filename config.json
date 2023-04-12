@@ -1,0 +1,30 @@
+{
+	"modelProps": [
+		{"name": "Bitcoin", "baseCurrency": "BTC", "quotedCurrency": "USD", "length": "100"},
+		{"name": "Ethereum", "baseCurrency": "ETH", "quotedCurrency": "USD", "length": "100"},
+		{"name": "BNB", "baseCurrency": "BNB", "quotedCurrency": "USD", "length": "100"},
+		{"name": "PolkaDot", "baseCurrency": "DOT", "quotedCurrency": "USD", "length": "100"},
+		{"name": "ADA", "baseCurrency": "ADA", "quotedCurrency": "USD", "length": "100"},
+		{"name": "AGIX", "baseCurrency": "AGIX", "quotedCurrency": "USD", "length": "100"},
+		{"name": "Dollar", "baseCurrency": "USD", "quotedCurrency": "RUB", "length": "100"}
+	],
+	"traderProps": [
+		{"name": "Bitcoin", "signalsOnly": "true", "active": "true"},
+		{"name": "Ethereum", "signalsOnly": "true", "active": "true"},
+		{"name": "BNB", "signalsOnly": "true", "active": "true"},
+		{"name": "PolkaDot", "signalsOnly": "true", "active": "true"},
+		{"name": "ADA", "signalsOnly": "true", "active": "true"},
+		{"name": "AGIX", "signalsOnly": "true", "active": "true"},
+		{"name": "Dollar", "signalsOnly": "true", "active": "true"}
+	],
+	"botProps": [
+		{"name": "Bitcoin", "trader": "Bitcoin", "model": "Bitcoin", "bandsLength": "25", "bandsWidth": "3.3", "tradeDirection": "0"},
+		{"name": "Ethereum", "trader": "Ethereum", "model": "Ethereum", "bandsLength": "25", "bandsWidth": "3.3", "tradeDirection": "0"},
+		{"name": "BNB", "trader": "BNB", "model": "BNB", "bandsLength": "25", "bandsWidth": "3.3", "tradeDirection": "0"},
+		{"name": "PolkaDot", "trader": "PolkaDot", "model": "PolkaDot", "bandsLength": "25", "bandsWidth": "3.3", "tradeDirection": "0"},
+		{"name": "ADA", "trader": "ADA", "model": "ADA", "bandsLength": "25", "bandsWidth": "3.3", "tradeDirection": "0"},
+		{"name": "AGIX", "trader": "AGIX", "model": "AGIX", "bandsLength": "25", "bandsWidth": "3", "tradeDirection": "0"},
+		{"name": "Dollar", "trader": "Dollar", "model": "Dollar", "bandsLength": "25", "bandsWidth": "2.75", "tradeDirection": "0"}
+	],
+	"periodicity": 900
+}
