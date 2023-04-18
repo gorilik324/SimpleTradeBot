@@ -6,6 +6,7 @@
 		{"name": "PolkaDot", "baseCurrency": "DOT", "quotedCurrency": "USD", "length": "100"},
 		{"name": "ADA", "baseCurrency": "ADA", "quotedCurrency": "USD", "length": "100"},
 		{"name": "AGIX", "baseCurrency": "AGIX", "quotedCurrency": "USD", "length": "100"},
+		{"name": "MASK", "baseCurrency": "MASK", "quotedCurrency": "USD", "length": "100"},
 		{"name": "Dollar", "baseCurrency": "USD", "quotedCurrency": "RUB", "length": "100"}
 	],
 	"traderProps": [
@@ -15,6 +16,7 @@
 		{"name": "PolkaDot", "signalsOnly": "true", "active": "true"},
 		{"name": "ADA", "signalsOnly": "true", "active": "true"},
 		{"name": "AGIX", "signalsOnly": "true", "active": "true"},
+		{"name": "MASK", "signalsOnly": "true", "active": "true"},
 		{"name": "Dollar", "signalsOnly": "true", "active": "true"}
 	],
 	"botProps": [
@@ -24,6 +26,7 @@
 		{"name": "PolkaDot", "trader": "PolkaDot", "model": "PolkaDot", "bandsLength": "25", "bandsWidth": "3.3", "tradeDirection": "0"},
 		{"name": "ADA", "trader": "ADA", "model": "ADA", "bandsLength": "25", "bandsWidth": "3.3", "tradeDirection": "0"},
 		{"name": "AGIX", "trader": "AGIX", "model": "AGIX", "bandsLength": "25", "bandsWidth": "3", "tradeDirection": "0"},
+		{"name": "MASK", "trader": "MASK", "model": "MASK", "bandsLength": "25", "bandsWidth": "3", "tradeDirection": "0"},
 		{"name": "Dollar", "trader": "Dollar", "model": "Dollar", "bandsLength": "25", "bandsWidth": "2.75", "tradeDirection": "0"}
 	],
 	"periodicity": 900
